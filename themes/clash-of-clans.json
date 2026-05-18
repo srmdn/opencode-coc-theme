@@ -1,0 +1,225 @@
+{
+  "$schema": "https://opencode.ai/theme.json",
+  "defs": {
+    "gold": "#F8B133",
+    "goldDark": "#C68A1F",
+    "elixirPink": "#D44A8C",
+    "elixirPinkDark": "#A63A6F",
+    "elixirPurple": "#7B4FBF",
+    "elixirPurpleDark": "#5C3A8F",
+    "bgDeep": "#1A0D14",
+    "bgStone": "#2E1D26",
+    "bgStoneLight": "#3D2B35",
+    "textParchment": "#F5E0B8",
+    "textParchmentMuted": "#8B7355",
+    "borderGold": "#6B4F1A",
+    "greenGem": "#4CAF50",
+    "greenGemDark": "#388E3C",
+    "damageRed": "#E53935",
+    "builderOrange": "#FF9800",
+    "builderOrangeDark": "#E68900",
+    "elixirGlow": "#CE6BB8"
+  },
+  "theme": {
+    "primary": {
+      "dark": "gold",
+      "light": "goldDark"
+    },
+    "secondary": {
+      "dark": "elixirPink",
+      "light": "elixirPinkDark"
+    },
+    "accent": {
+      "dark": "elixirPurple",
+      "light": "elixirPurpleDark"
+    },
+    "error": {
+      "dark": "damageRed",
+      "light": "damageRed"
+    },
+    "warning": {
+      "dark": "builderOrange",
+      "light": "builderOrangeDark"
+    },
+    "success": {
+      "dark": "greenGem",
+      "light": "greenGemDark"
+    },
+    "info": {
+      "dark": "elixirGlow",
+      "light": "elixirGlow"
+    },
+    "text": {
+      "dark": "textParchment",
+      "light": "bgDeep"
+    },
+    "textMuted": {
+      "dark": "textParchmentMuted",
+      "light": "textParchmentMuted"
+    },
+    "background": {
+      "dark": "bgDeep",
+      "light": "textParchment"
+    },
+    "backgroundPanel": {
+      "dark": "bgStone",
+      "light": "#E8D5A3"
+    },
+    "backgroundElement": {
+      "dark": "bgStoneLight",
+      "light": "#D4C08A"
+    },
+    "border": {
+      "dark": "borderGold",
+      "light": "borderGold"
+    },
+    "borderActive": {
+      "dark": "gold",
+      "light": "goldDark"
+    },
+    "borderSubtle": {
+      "dark": "bgStoneLight",
+      "light": "#D4C08A"
+    },
+    "diffAdded": {
+      "dark": "greenGem",
+      "light": "greenGemDark"
+    },
+    "diffRemoved": {
+      "dark": "damageRed",
+      "light": "damageRed"
+    },
+    "diffContext": {
+      "dark": "bgStoneLight",
+      "light": "#C8B880"
+    },
+    "diffHunkHeader": {
+      "dark": "elixirPurple",
+      "light": "elixirPurpleDark"
+    },
+    "diffHighlightAdded": {
+      "dark": "greenGem",
+      "light": "greenGemDark"
+    },
+    "diffHighlightRemoved": {
+      "dark": "damageRed",
+      "light": "damageRed"
+    },
+    "diffAddedBg": {
+      "dark": "#1B3A1B",
+      "light": "#D4EDDA"
+    },
+    "diffRemovedBg": {
+      "dark": "#3A1B1B",
+      "light": "#F8D7DA"
+    },
+    "diffContextBg": {
+      "dark": "bgStone",
+      "light": "#E8D5A3"
+    },
+    "diffLineNumber": {
+      "dark": "textParchmentMuted",
+      "light": "textParchmentMuted"
+    },
+    "diffAddedLineNumberBg": {
+      "dark": "#1B3A1B",
+      "light": "#C3E6CB"
+    },
+    "diffRemovedLineNumberBg": {
+      "dark": "#3A1B1B",
+      "light": "#F5C6CB"
+    },
+    "markdownText": {
+      "dark": "textParchment",
+      "light": "bgDeep"
+    },
+    "markdownHeading": {
+      "dark": "gold",
+      "light": "goldDark"
+    },
+    "markdownLink": {
+      "dark": "elixirGlow",
+      "light": "elixirPink"
+    },
+    "markdownLinkText": {
+      "dark": "elixirPink",
+      "light": "elixirPinkDark"
+    },
+    "markdownCode": {
+      "dark": "greenGem",
+      "light": "greenGemDark"
+    },
+    "markdownBlockQuote": {
+      "dark": "borderGold",
+      "light": "borderGold"
+    },
+    "markdownEmph": {
+      "dark": "builderOrange",
+      "light": "builderOrangeDark"
+    },
+    "markdownStrong": {
+      "dark": "gold",
+      "light": "goldDark"
+    },
+    "markdownHorizontalRule": {
+      "dark": "borderGold",
+      "light": "borderGold"
+    },
+    "markdownListItem": {
+      "dark": "gold",
+      "light": "goldDark"
+    },
+    "markdownListEnumeration": {
+      "dark": "elixirPink",
+      "light": "elixirPinkDark"
+    },
+    "markdownImage": {
+      "dark": "elixirGlow",
+      "light": "elixirGlow"
+    },
+    "markdownImageText": {
+      "dark": "elixirPink",
+      "light": "elixirPinkDark"
+    },
+    "markdownCodeBlock": {
+      "dark": "textParchment",
+      "light": "bgDeep"
+    },
+    "syntaxComment": {
+      "dark": "textParchmentMuted",
+      "light": "textParchmentMuted"
+    },
+    "syntaxKeyword": {
+      "dark": "gold",
+      "light": "goldDark"
+    },
+    "syntaxFunction": {
+      "dark": "elixirPink",
+      "light": "elixirPinkDark"
+    },
+    "syntaxVariable": {
+      "dark": "textParchment",
+      "light": "bgDeep"
+    },
+    "syntaxString": {
+      "dark": "greenGem",
+      "light": "greenGemDark"
+    },
+    "syntaxNumber": {
+      "dark": "elixirPurple",
+      "light": "elixirPurpleDark"
+    },
+    "syntaxType": {
+      "dark": "elixirGlow",
+      "light": "elixirGlow"
+    },
+    "syntaxOperator": {
+      "dark": "builderOrange",
+      "light": "builderOrangeDark"
+    },
+    "syntaxPunctuation": {
+      "dark": "textParchmentMuted",
+      "light": "textParchmentMuted"
+    }
+  }
+}

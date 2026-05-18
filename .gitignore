@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Font files (keep in themes/ only)
+*.ttf
+*.ttc
+*.otf
+*.woff
+*.woff2
+
+# OpenCode
+.opencode/
