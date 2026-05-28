@@ -20,5 +20,8 @@
 *.woff
 *.woff2
 
+# Project docs (drafts, plans)
+docs/
+
 # OpenCode
 .opencode/
